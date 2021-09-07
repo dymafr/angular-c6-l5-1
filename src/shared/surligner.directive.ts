@@ -12,6 +12,6 @@ export class SurlignerDirective {
   }
 
   @HostListener('mouseleave') onMouseLeave() {
-    this.couleur = undefined;
+    this.couleur = '';
   }
 }
